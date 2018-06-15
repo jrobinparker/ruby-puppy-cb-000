@@ -8,9 +8,8 @@ class Dog
     @@all << self 
   end 
   
-  def all 
-    all_dogs = @@all
-    all_dogs.each do |name|
+  def self.all 
+    @@all.each do |name|
       puts name
     end
   end
