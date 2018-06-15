@@ -9,7 +9,8 @@ class Dog
   end 
   
   def all 
-    @@all.each do |name|
+    all_dogs = @@all
+    all_dogs.each do |name|
       puts name
     end
   end
