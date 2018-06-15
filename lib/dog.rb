@@ -15,11 +15,7 @@ class Dog
   end
   
   def self.clear_all
-    trashcan = []
-    @@all.each do |dog|
-      @@all.shift(self)
-      trashcan << self
-    end 
+    @@all.clear
   end 
   
 end 
