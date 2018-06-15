@@ -17,7 +17,7 @@ class Dog
   def self.clear_all
     trashcan = []
     @@all.each do |dog|
-      trashcan << dog.nam 
+      trashcan << dog.name 
     end 
   end 
   
